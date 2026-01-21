@@ -1,0 +1,12 @@
+package lab_2.Pokemons;
+import lab_2.Moves.*;
+import ru.ifmo.se.pokemon.*;
+
+public class Seedot extends Pokemon {
+    public Seedot(String name, int level) {
+        super(name, level);
+        setType(Type.GRASS);
+        setStats(40, 40, 50, 30, 30, 30);
+        setMove(new ShadowBall(), new Rest());
+    }
+}
