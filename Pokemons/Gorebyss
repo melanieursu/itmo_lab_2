@@ -1,0 +1,12 @@
+package lab_2.Pokemons;
+import lab_2.Moves.*;
+import ru.ifmo.se.pokemon.*;
+
+public final class Gorebyss extends Clamperl {
+    public Gorebyss(String name, int level) {
+        super(name, level);
+        setType(Type.WATER);
+        setStats(55, 84, 105, 114, 75, 52);
+        setMove(new Facade(), new Rest(), new WaterPulse(), new AquaTail());
+    }
+}
