@@ -1,0 +1,12 @@
+package lab_2.Pokemons;
+import lab_2.Moves.*;
+import ru.ifmo.se.pokemon.*;
+
+public final class Shiftry extends Nuzleaf {
+    public Shiftry(String name, int level) {
+        super(name, level);
+        setType(Type.GRASS, Type.DARK);
+        setStats(90, 100, 60, 90, 60, 80);
+        setMove(new ShadowBall(), new Rest(), new Pound(), new DoubleTeam());
+    }
+}
