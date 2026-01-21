@@ -1,0 +1,12 @@
+package lab_2.Pokemons;
+import lab_2.Moves.*;
+import ru.ifmo.se.pokemon.*;
+
+public final class Oricorio-Pom-Pom extends Pokemon {
+    public Oricorio-Pom-Pom(String name, int level) {
+        super(name, level);
+        setType(Type.ELECTRIC, Type.FLYING);
+        setStats(75, 70, 70, 98, 70, 93);
+        setMove(new Confide(), new SteelWing(), new Swagger(), new Rest());
+    }
+}
